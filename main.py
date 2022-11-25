@@ -13,7 +13,7 @@ app.include_router(auth_router)
 
 @app.get('/')
 def main_page():
-    return 'All endpoints can be found at 127.0.0.1:8000/docs. API Key for the 3rd endpoint is: abcd1234'
+    return 'All endpoints can be found at https://fastapi-projekt.herokuapp.com/docs. API Key for the 3rd endpoint is: abcd1234'
 
 
 if __name__ == '__main__':
